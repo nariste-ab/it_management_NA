@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-03-24" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3316" locale="en_US">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="b16e5d0e64ba44e189b88c8d717ea742" name="Website redesign" meeting="false" start="2026-03-10" duration="17" complete="0" expand="true">
+            <task id="29" uid="f277d6b2e4d74f8495d6622f5ac62271" name="Define requirements" meeting="false" start="2026-03-10" duration="3" complete="0" expand="true">
+                <depend id="1" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="1" uid="8644b7359c7045f9bd7f9a3eb2666ccc" name="Define store design" meeting="false" start="2026-03-13" duration="5" complete="0" expand="true">
+                <depend id="2" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="30" uid="aecb7ed0ecc2420d86336272d170f4d5" name="Developing stage" meeting="false" start="2026-03-20" duration="7" complete="0" expand="true">
+                <task id="2" uid="3e33de453f8040eebd9e45479ec598db" name="Add 'Products' section" meeting="false" start="2026-03-20" duration="7" complete="0" expand="true">
+                    <depend id="25" type="1" difference="0" hardness="Strong"/>
+                </task>
+                <task id="25" uid="b69bd34c817a428b88d8fc83593a015e" name="Add 'About' section" meeting="false" start="2026-03-20" duration="7" complete="0" expand="true">
+                    <depend id="26" type="1" difference="0" hardness="Strong"/>
+                </task>
+                <task id="26" uid="3abdc81975c64519ac94eb0450d9a803" name="Add 'Contact' section" meeting="false" start="2026-03-20" duration="7" complete="0" expand="true">
+                    <depend id="27" type="1" difference="0" hardness="Strong"/>
+                </task>
+                <task id="27" uid="79d891860f87440c82f51a665c19ffa8" name="Add 'Locations' section" meeting="false" start="2026-03-20" duration="7" complete="0" expand="true">
+                    <depend id="4" type="1" difference="0" hardness="Strong"/>
+                </task>
+                <task id="4" uid="c252133a682047cdb606be845c6c40ce" name="Configure shipping" meeting="false" start="2026-03-20" duration="7" complete="0" expand="true">
+                    <depend id="3" type="1" difference="0" hardness="Strong"/>
+                </task>
+                <task id="3" uid="5ff1514fb03b4c129888d0425f3dad34" name="Set up payment methods" meeting="false" start="2026-03-20" duration="7" complete="0" expand="true">
+                    <depend id="5" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="5" uid="eca5e810160045b68d617525ab84d390" name="Testing" meeting="false" start="2026-03-31" duration="1" complete="0" expand="true">
+                <depend id="6" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="6" uid="984608d8f4544fb389fa76923ef8baed" name="Deploying" meeting="false" start="2026-04-01" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="7" uid="330606e0c58d482b850f123215368965" name="Setup management information system" meeting="false" start="2026-03-20" duration="28" complete="0" expand="true">
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+            <task id="8" uid="6c255edbb0694d3393239e236699e1dd" name="Identify and analyze system goals" meeting="false" start="2026-03-20" duration="5" complete="0" expand="true">
+                <depend id="9" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="9" uid="e62c03dc09d14256adeaaf9ba85d7a2d" name="Design system arhitecture" meeting="false" start="2026-03-27" duration="4" complete="0" expand="true">
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="10" uid="1cdfa023066b44ad9d7f98e433da7bad" name="Data collection" meeting="false" start="2026-04-02" duration="6" complete="0" expand="false">
+                <depend id="11" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="11" uid="f63e43d2baba42be8afe8a156ee7cbea" name="Database development" meeting="false" start="2026-04-10" duration="4" complete="0" expand="true">
+                <depend id="28" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="28" uid="50a18fd929734429baf7b26f271e4d7c" name="System development" meeting="false" start="2026-04-16" duration="1" complete="0" expand="true">
+                <depend id="14" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="14" uid="582dcb31dfcd4132bf0ede76b6f580a0" name="System testing" meeting="false" start="2026-04-17" duration="1" complete="0" expand="true">
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="15" uid="1bcb443075a047c4afa6c32d020fdf37" name="System evaluation" meeting="false" start="2026-04-20" duration="1" complete="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="12" uid="89690eda0dba44e2b6461d221fbcb426" name="Start of implementation" meeting="false" start="2026-04-21" duration="3" complete="0" expand="true">
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="13" uid="45d63abd1d6840c2a0f195759fde6fb3" name="Staff training" meeting="false" start="2026-04-24" duration="3" complete="0" expand="true"/>
+        </task>
+        <task id="16" uid="4b7b5f9be5b54538aa5450844e32328f" name="Creation of loyalty program" meeting="false" start="2026-04-30" duration="13" complete="0" expand="true">
+            <task id="17" uid="d7200a7ea56f473489e3201daebf3423" name="Define goals" meeting="false" start="2026-04-30" duration="4" complete="0" expand="true">
+                <depend id="18" type="3" difference="0" hardness="Strong"/>
+            </task>
+            <task id="18" uid="6472b7b29de143638ec902566836617f" name="Set up budget" meeting="false" start="2026-05-05" duration="1" complete="0" expand="true">
+                <depend id="21" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="21" uid="1833962c4fa847b78eb609494bb752a1" name="Choose structure" meeting="false" start="2026-05-06" duration="2" complete="0" expand="true">
+                <depend id="20" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="20" uid="0c103072e92a404cbad1c99057628c58" name="Segment audience" meeting="false" start="2026-05-08" duration="1" complete="0" expand="true">
+                <depend id="22" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="22" uid="148e7d85d61146caa61acc29c6e3816a" name="Promote program" meeting="false" start="2026-05-11" duration="4" complete="0" expand="true">
+                <depend id="23" type="1" difference="0" hardness="Strong"/>
+            </task>
+            <task id="23" uid="70c5b48615054ffab181625e69155943" name="Monitor perfomance" meeting="false" start="2026-05-11" duration="4" complete="0" expand="true">
+                <depend id="24" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="24" uid="9d3aa13dda224bd3a4739f6e56eb6af3" name="Gather feedbacks" meeting="false" start="2026-05-15" duration="1" complete="0" expand="true">
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="19" uid="dc83d77ebd504e1b98f49c5f8b21077a" name="Analyze purchase data" meeting="false" start="2026-05-18" duration="1" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
