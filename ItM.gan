@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-03-24" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3316" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2025-10-01" view-index="1" gantt-divider-location="351" resource-divider-location="352" version="3.3.3316" locale="en_US">
     <description/>
-    <view zooming-state="default:2" id="gantt-chart">
+    <view zooming-state="default:8" id="gantt-chart">
         <field id="tpd3" name="Name" width="200" order="0"/>
         <field id="tpd4" name="Begin date" width="75" order="1"/>
         <field id="tpd5" name="End date" width="75" order="2"/>
@@ -11,8 +11,8 @@
         <option id="filter.inProgressTodayTasks" value="false"/>
     </view>
     <view id="resource-table">
-        <field id="0" name="Name" width="210" order="0"/>
-        <field id="1" name="Default role" width="86" order="1"/>
+        <field id="0" name="Name" width="236" order="0"/>
+        <field id="1" name="Default role" width="112" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -45,7 +45,7 @@
             <task id="1" uid="8644b7359c7045f9bd7f9a3eb2666ccc" name="Define store design" meeting="false" start="2026-03-13" duration="5" complete="0" expand="true">
                 <depend id="2" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="30" uid="aecb7ed0ecc2420d86336272d170f4d5" name="Developing stage" meeting="false" start="2026-03-20" duration="7" complete="0" expand="true">
+            <task id="30" uid="aecb7ed0ecc2420d86336272d170f4d5" name="Developing stage" meeting="false" start="2026-03-20" duration="7" complete="0" expand="false">
                 <task id="2" uid="3e33de453f8040eebd9e45479ec598db" name="Add 'Products' section" meeting="false" start="2026-03-20" duration="7" complete="0" expand="true">
                     <depend id="25" type="1" difference="0" hardness="Strong"/>
                 </task>
@@ -123,9 +123,96 @@
             <task id="19" uid="dc83d77ebd504e1b98f49c5f8b21077a" name="Analyze purchase data" meeting="false" start="2026-05-18" duration="1" complete="0" expand="true"/>
         </task>
     </tasks>
-    <resources/>
-    <allocations/>
+    <resources>
+        <resource id="0" name="John " function="1" contacts="" phone=""/>
+        <resource id="1" name="Alan" function="5" contacts="" phone=""/>
+        <resource id="2" name="Amanda" function="2" contacts="" phone=""/>
+        <resource id="4" name="Bogo company" function="22" contacts="" phone=""/>
+        <resource id="5" name="Kenny (Son)" function="23" contacts="" phone=""/>
+        <resource id="6" name="Kyle" function="2" contacts="" phone=""/>
+        <resource id="7" name="Cartman" function="Default:1" contacts="" phone=""/>
+        <resource id="8" name="Jennie" function="9" contacts="" phone=""/>
+        <resource id="9" name="Rose" function="10" contacts="" phone=""/>
+        <resource id="10" name="Nikky" function="14" contacts="" phone=""/>
+        <resource id="11" name="Owner" function="23" contacts="" phone=""/>
+        <resource id="12" name="Vince" function="15" contacts="" phone=""/>
+        <resource id="13" name="Chris" function="16" contacts="" phone=""/>
+        <resource id="14" name="Robert" function="24" contacts="" phone=""/>
+        <resource id="15" name="Anny" function="3" contacts="" phone=""/>
+        <resource id="16" name="Amy" function="6" contacts="" phone=""/>
+        <resource id="17" name="Monica" function="12" contacts="" phone=""/>
+        <resource id="18" name="Jessica" function="13" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="29" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="0" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="1" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="2" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="4" function="10" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="4" function="10" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="4" function="10" responsible="false" load="100.0"/>
+        <allocation task-id="28" resource-id="4" function="22" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="4" function="22" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="4" function="22" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="4" function="22" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="4" function="22" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="5" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="5" function="23" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="6" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="7" function="24" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="7" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="7" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="8" function="9" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="9" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="9" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="9" function="10" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="10" function="9" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="10" function="14" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="11" function="23" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="11" function="23" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="11" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="11" function="23" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="11" function="23" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="12" function="12" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="14" function="24" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="14" function="24" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="14" function="24" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="14" function="24" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="15" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="16" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="17" function="12" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="18" function="13" responsible="false" load="100.0"/>
+    </allocations>
     <vacations/>
     <previous/>
     <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Store assistant 1"/>
+        <role id="2" name="Store assistant 2"/>
+        <role id="3" name="Store assistant 3"/>
+        <role id="4" name="Store assistant 4"/>
+        <role id="5" name="Store manager 1"/>
+        <role id="6" name="Store manager 2"/>
+        <role id="7" name="Store manager 3"/>
+        <role id="8" name="Store manager 4"/>
+        <role id="9" name="Store attendant 1"/>
+        <role id="10" name="Store attendant 2"/>
+        <role id="11" name="Store attendant 3"/>
+        <role id="12" name="Designer 1"/>
+        <role id="13" name="Designer 2"/>
+        <role id="14" name="HR officer"/>
+        <role id="15" name="Accountant"/>
+        <role id="16" name="Procurement manager"/>
+        <role id="17" name="Account executive 1"/>
+        <role id="18" name="Account executive 2"/>
+        <role id="19" name="Account executive 3"/>
+        <role id="20" name="Executive assistant"/>
+        <role id="21" name="Administrator"/>
+        <role id="22" name="External company"/>
+        <role id="23" name="Sponsor"/>
+        <role id="24" name="Project coordinator"/>
+    </roles>
 </project>
